@@ -34,7 +34,7 @@ spec:
       - port: dns
         protocol: UDP
     toEndpoints:
-    - namespaceSelector: {}
+    - {}
 
 ---
 apiVersion: cilium.io/v2
